@@ -40,9 +40,10 @@ a:hover {
 
 @media (max-width: 412px) {
   .App-header h1 {
-    font-size: 18px; 
+    font-size: 28px;
+    line-height: 1.5;
     }
     .App-logo {
-     width: 60px;
+     width: 50px;
     }
 }
