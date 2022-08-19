@@ -3,6 +3,17 @@ body {
  font-family: 'Quicksand', sans-serif;
 }
 
+a {
+  color: #048A81;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #048A81;
+  font-weight: bold;
+}
+
+
 
 .App-header {
   margin: 30px 0;
