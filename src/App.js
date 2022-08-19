@@ -14,9 +14,11 @@ export default function App() {
           <Dictionary />
         </main>
         <footer className="App-footer">
-          Coded by Kseniia Vyshniakova {" "}
-          <a href="https://github.com/KseniiaVyshniakova/dictionary-project"
-          target="_blank"
+          Coded by Kseniia Vyshniakova{" "}
+          <a
+            href="https://github.com/KseniiaVyshniakova/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
           >
             open-sourced on GitHub
           </a>
