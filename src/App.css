@@ -1,6 +1,7 @@
 body {
   background: linear-gradient(90deg, rgb(200, 248, 215) 0%, rgb(243, 245, 200) 100%);
  font-family: 'Quicksand', sans-serif;
+ color: #001427;
 }
 
 a {
@@ -14,19 +15,23 @@ a:hover {
 }
 
 
-
 .App-header {
-  margin: 30px 0;
-  
+  margin: 30px 0;  
 }
+
+.App h1 {
+  font-weight: bold;
+}
+
 .App-logo {
-  max-width: 50px;
-  
-  
+  max-width: 50px;  
 }
+
 .App-footer {
+  font-size: 14px;
   text-align: center;
   margin: 30px 0;
+  font-weight: 100;
 }
 
 .Synonyms li {
@@ -35,8 +40,10 @@ a:hover {
   list-style-type: none;
 }
 
-
-
+.example {
+  font-size: 14px;
+  color: #048A81;
+}
 
 @media (max-width: 412px) {
   .App-header h1 {

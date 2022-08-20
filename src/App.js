@@ -11,7 +11,7 @@ export default function App() {
           <h1>Dictionary</h1>
         </div>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="curious" />
         </main>
         <footer className="App-footer">
           Coded by Kseniia Vyshniakova{" "}

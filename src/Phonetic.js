@@ -1,7 +1,5 @@
 import React from "react";
 import ReactPlayer from "react-player";
-import "./Phonetic.css";
-
 
 export default function Phonetic(props) {
   return (
@@ -13,7 +11,7 @@ export default function Phonetic(props) {
           playing={false}
           controls={true}
           height={30}
-          width={230}
+          width={210}
                   />
       </div>
       <span className="text">{props.phonetic.text}</span>

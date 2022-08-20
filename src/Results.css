@@ -2,5 +2,12 @@
     font-size: 36px;
     font-weight: bold;
     line-height: 1.5;
+    color: #001427;
+}
+
+.partOfSpeech {
+    font-weight: bold;
+    line-height: 1.5;
+    color: #048A81;
 }
 
