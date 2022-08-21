@@ -1,20 +1,28 @@
 import React from "react";
-import ReactPlayer from "react-player";
+import AudioPlayer from "./Audio";
 
-export default function Phonetic(props) {
+export default function Phonetic(props) {  
   return (
-    <div className="Phonetic d-flex mb-2">
-      <div className="player-wrapper me-3">
-        <ReactPlayer
-          className="react-player"
-          url={props.phonetic.audio}
-          playing={false}
-          controls={true}
-          height={30}
-          width={210}
-                  />
-      </div>
-      <span className="text">{props.phonetic.text}</span>
+<div className="Phonetic d-flex mb-2">
+  {props.phonetics.map(function (phonetic, index) {
+       if (phonetic.audio && phonetic.text) {
+          return (
+            <div className="d-flex flex-wrap align-items-center" key={index}>
+              <div className="player me-2">
+                <AudioPlayer audio={phonetic.audio} />
+              </div>
+              <span className="text me-4">{phonetic.text}</span>
+            </div>
+          );
+       } else {
+          return null;
+       }
+      })}
     </div>
-  );
+);
 }
+
+
+ 
+
+  

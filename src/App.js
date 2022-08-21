@@ -14,7 +14,14 @@ export default function App() {
           <Dictionary defaultKeyword="brave" />
         </main>
         <footer className="App-footer">
-          Coded by Kseniia Vyshniakova{" "}
+          Coded by{" "}
+          <a
+            href="https://gentle-raindrop-9732e4.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Kseniia Vyshniakova{" "}
+          </a>
           <a
             href="https://github.com/KseniiaVyshniakova/dictionary-project"
             target="_blank"
